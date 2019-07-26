@@ -10,8 +10,8 @@ import {RouterModule, Routes} from "@angular/router";
 import {CustomMaterialModule} from "./core/material.module";
 
 const appRoutes: Routes = [
-  { path: '', component: FirstComponent, data: { title: 'First Component' } },
-  { path: 'first', component: FirstComponent, data: { title: 'First Component' } },
+  { path: '', component: FirstComponent, data: { title: 'First test' } },
+  { path: 'first', component: FirstComponent, data: { title: 'First test' } },
   { path: 'second', component: SecondComponent, data: { title: 'Second Component' } }
 ];
 @NgModule({
